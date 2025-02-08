@@ -703,3 +703,7 @@ body
    padding: 0;
 }
 }
+#container {
+   user-select: none;
+   -webkit-user-select: none;
+}
