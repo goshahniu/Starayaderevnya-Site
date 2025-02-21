@@ -147,18 +147,18 @@ body
 #wb_Image12
 {
    position: absolute;
-   left: 710px;
-   top: 99px;
+   left: 242px;
+   top: 567px;
    width: 233px;
-   height: 233px;
+   height: 116px;
    z-index: 2;
 }
 #wb_Image13
 {
    position: absolute;
-   left: 710px;
-   top: 333px;
-   width: 233px;
+   left: 240px;
+   top: 684px;
+   width: 468px;
    height: 116px;
    z-index: 3;
 }
@@ -184,8 +184,8 @@ body
 #wb_Image3
 {
    position: absolute;
-   left: 242px;
-   top: 567px;
+   left: 709px;
+   top: 216px;
    width: 233px;
    height: 233px;
    z-index: 11;
@@ -193,8 +193,8 @@ body
 #wb_Image15
 {
    position: absolute;
-   left: 476px;
-   top: 332px;
+   left: 475px;
+   top: 215px;
    width: 233px;
    height: 468px;
    z-index: 6;
@@ -202,17 +202,17 @@ body
 #wb_Image16
 {
    position: absolute;
-   left: 710px;
-   top: 450px;
-   width: 233px;
-   height: 233px;
+   left: 475px;
+   top: 98px;
+   width: 468px;
+   height: 116px;
    z-index: 7;
 }
 #wb_Image4
 {
    position: absolute;
    left: 8px;
-   top: 99px;
+   top: 98px;
    width: 468px;
    height: 468px;
    z-index: 1;
@@ -229,7 +229,7 @@ body
 #wb_Image17
 {
    position: absolute;
-   left: 710px;
+   left: 709px;
    top: 684px;
    width: 233px;
    height: 116px;
@@ -238,8 +238,8 @@ body
 #wb_Image18
 {
    position: absolute;
-   left: 476px;
-   top: 99px;
+   left: 709px;
+   top: 450px;
    width: 233px;
    height: 233px;
    z-index: 5;
@@ -282,10 +282,10 @@ body
 }
 #wb_Image12
 {
-   left: 8px;
-   top: 801px;
+   left: 477px;
+   top: 333px;
    width: 233px;
-   height: 233px;
+   height: 116px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -293,9 +293,9 @@ body
 }
 #wb_Image13
 {
-   left: 475px;
-   top: 801px;
-   width: 234px;
+   left: 9px;
+   top: 568px;
+   width: 468px;
    height: 116px;
    visibility: visible;
    display: inline;
@@ -304,7 +304,7 @@ body
 }
 #wb_Image17
 {
-   left: 475px;
+   left: 9px;
    top: 918px;
    width: 234px;
    height: 116px;
@@ -315,7 +315,7 @@ body
 }
 #wb_Image18
 {
-   left: 476px;
+   left: 477px;
    top: 99px;
    width: 233px;
    height: 233px;
@@ -326,8 +326,8 @@ body
 }
 #wb_Image15
 {
-   left: 476px;
-   top: 332px;
+   left: 477px;
+   top: 450px;
    width: 233px;
    height: 468px;
    visibility: visible;
@@ -337,10 +337,10 @@ body
 }
 #wb_Image16
 {
-   left: 241px;
-   top: 801px;
-   width: 233px;
-   height: 233px;
+   left: 242px;
+   top: 919px;
+   width: 468px;
+   height: 116px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -378,8 +378,8 @@ body
 }
 #wb_Image2
 {
-   left: 7px;
-   top: 568px;
+   left: 9px;
+   top: 685px;
    width: 233px;
    height: 233px;
    visibility: visible;
@@ -389,8 +389,8 @@ body
 }
 #wb_Image3
 {
-   left: 241px;
-   top: 568px;
+   left: 243px;
+   top: 685px;
    width: 233px;
    height: 233px;
    visibility: visible;
@@ -434,10 +434,10 @@ body
 }
 #wb_Image12
 {
-   left: 8px;
-   top: 1212px;
+   left: 242px;
+   top: 1330px;
    width: 233px;
-   height: 233px;
+   height: 116px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -446,8 +446,8 @@ body
 #wb_Image13
 {
    left: 8px;
-   top: 1095px;
-   width: 233px;
+   top: 628px;
+   width: 468px;
    height: 116px;
    visibility: visible;
    display: inline;
@@ -456,8 +456,8 @@ body
 }
 #wb_Image17
 {
-   left: 8px;
-   top: 1446px;
+   left: 242px;
+   top: 1447px;
    width: 233px;
    height: 116px;
    visibility: visible;
@@ -467,8 +467,8 @@ body
 }
 #wb_Image18
 {
-   left: 8px;
-   top: 861px;
+   left: 9px;
+   top: 1330px;
    width: 233px;
    height: 233px;
    visibility: visible;
@@ -478,8 +478,8 @@ body
 }
 #wb_Image15
 {
-   left: 242px;
-   top: 861px;
+   left: 243px;
+   top: 745px;
    width: 233px;
    height: 468px;
    visibility: visible;
@@ -489,10 +489,10 @@ body
 }
 #wb_Image16
 {
-   left: 242px;
-   top: 1329px;
-   width: 233px;
-   height: 233px;
+   left: 8px;
+   top: 1213px;
+   width: 468px;
+   height: 116px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -530,8 +530,8 @@ body
 }
 #wb_Image2
 {
-   left: 8px;
-   top: 628px;
+   left: 9px;
+   top: 979px;
    width: 233px;
    height: 233px;
    visibility: visible;
@@ -541,8 +541,8 @@ body
 }
 #wb_Image3
 {
-   left: 242px;
-   top: 628px;
+   left: 9px;
+   top: 745px;
    width: 233px;
    height: 233px;
    visibility: visible;
@@ -586,10 +586,10 @@ body
 }
 #wb_Image12
 {
-   left: 3px;
-   top: 887px;
+   left: 179px;
+   top: 974px;
    width: 175px;
-   height: 175px;
+   height: 86px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -598,8 +598,8 @@ body
 #wb_Image13
 {
    left: 4px;
-   top: 800px;
-   width: 174px;
+   top: 450px;
+   width: 350px;
    height: 86px;
    visibility: visible;
    display: inline;
@@ -608,8 +608,8 @@ body
 }
 #wb_Image17
 {
-   left: 4px;
-   top: 1059px;
+   left: 179px;
+   top: 1062px;
    width: 175px;
    height: 86px;
    visibility: visible;
@@ -620,7 +620,7 @@ body
 #wb_Image18
 {
    left: 4px;
-   top: 625px;
+   top: 974px;
    width: 174px;
    height: 174px;
    visibility: visible;
@@ -631,7 +631,7 @@ body
 #wb_Image15
 {
    left: 179px;
-   top: 625px;
+   top: 537px;
    width: 175px;
    height: 350px;
    visibility: visible;
@@ -641,10 +641,10 @@ body
 }
 #wb_Image16
 {
-   left: 179px;
-   top: 971px;
-   width: 175px;
-   height: 174px;
+   left: 4px;
+   top: 887px;
+   width: 350px;
+   height: 86px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -682,8 +682,8 @@ body
 }
 #wb_Image2
 {
-   left: 5px;
-   top: 450px;
+   left: 4px;
+   top: 712px;
    width: 174px;
    height: 174px;
    visibility: visible;
@@ -693,8 +693,8 @@ body
 }
 #wb_Image3
 {
-   left: 180px;
-   top: 450px;
+   left: 4px;
+   top: 537px;
    width: 174px;
    height: 174px;
    visibility: visible;
