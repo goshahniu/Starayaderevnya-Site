@@ -185,9 +185,9 @@ body
 {
    position: absolute;
    left: 709px;
-   top: 216px;
+   top: 215px;
    width: 233px;
-   height: 233px;
+   height: 234px;
    z-index: 11;
 }
 #wb_Image15
@@ -204,7 +204,7 @@ body
    position: absolute;
    left: 475px;
    top: 98px;
-   width: 468px;
+   width: 467px;
    height: 116px;
    z-index: 7;
 }
@@ -337,9 +337,9 @@ body
 }
 #wb_Image16
 {
-   left: 242px;
-   top: 919px;
-   width: 468px;
+   left: 243px;
+   top: 918px;
+   width: 467px;
    height: 116px;
    visibility: visible;
    display: inline;
@@ -609,9 +609,9 @@ body
 #wb_Image17
 {
    left: 179px;
-   top: 1062px;
+   top: 1061px;
    width: 175px;
-   height: 86px;
+   height: 87px;
    visibility: visible;
    display: inline;
    margin: 0;
