@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url(images/titleside.png);
+   background-image: url(images/title-si.png);
    background-attachment: scroll;
    background-position: right top;
    background-repeat: no-repeat;
@@ -133,6 +133,19 @@ body
    width: 100%;
    height: 100%;
 }
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
 #wb_Text1
 {
    position: absolute;
@@ -152,6 +165,16 @@ body
    width: 233px;
    height: 116px;
    z-index: 2;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 9px;
+   top: 841px;
+   width: 936px;
+   height: 23px;
+   text-align: center;
+   z-index: 12;
 }
 #wb_Image13
 {
@@ -253,7 +276,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url(images/titleside.png);
+   background-image: url(images/title-si.png);
    background-attachment: scroll;
    background-position: right top;
    background-repeat: no-repeat;
@@ -398,6 +421,27 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Text3
+{
+   left: 0px;
+   top: 1063px;
+   width: 712px;
+   height: 23px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (min-width: 500px) and (max-width: 767px)
 {
@@ -408,7 +452,10 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: none;
+   background-image: url();
+   background-attachment: scroll;
+   background-position: right top;
+   background-repeat: no-repeat;
 }
 #wb_Image1
 {
@@ -550,6 +597,27 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Text3
+{
+   left: 4px;
+   top: 1587px;
+   width: 474px;
+   height: 23px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (max-width: 499px)
 {
@@ -560,7 +628,10 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: none;
+   background-image: url(images/title-si.png);
+   background-attachment: scroll;
+   background-position: right top;
+   background-repeat: no-repeat;
 }
 #wb_Image1
 {
@@ -699,6 +770,27 @@ body
    height: 174px;
    visibility: visible;
    display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 0px;
+   top: 1168px;
+   width: 356px;
+   height: 46px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text3
+{
    margin: 0;
    padding: 0;
 }
