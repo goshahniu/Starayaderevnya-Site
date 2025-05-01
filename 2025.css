@@ -267,8 +267,8 @@ body
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 7px;
+   padding-left: 7px;
    position: relative;
 }
 #LayoutGrid9 > .col-1, #LayoutGrid9 > .col-2
@@ -300,8 +300,8 @@ body
    border: 0px solid #FFFFFF;
    flex-basis: 50%;
    max-width: 50%;
-   -webkit-align-self: center;
-   align-self: center;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
    -webkit-justify-content: center;
    justify-content: center;
    text-align: center;
@@ -342,7 +342,7 @@ body
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   padding: 3px 0px 3px 0px;
+   padding: 10px 0px 3px 0px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1250px;
@@ -352,8 +352,8 @@ body
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 7px;
+   padding-left: 7px;
    position: relative;
 }
 #LayoutGrid2 > .col-1, #LayoutGrid2 > .col-2
@@ -368,8 +368,8 @@ body
    border: 0px solid #FFFFFF;
    flex-basis: 50%;
    max-width: 50%;
-   -webkit-align-self: center;
-   align-self: center;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
    -webkit-justify-content: center;
    justify-content: center;
    text-align: center;
@@ -385,8 +385,8 @@ body
    border: 0px solid #FFFFFF;
    flex-basis: 50%;
    max-width: 50%;
-   -webkit-align-self: center;
-   align-self: center;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
    -webkit-justify-content: center;
    justify-content: center;
    text-align: center;
@@ -398,6 +398,160 @@ body
 @media (max-width: 500px)
 {
 #LayoutGrid2 > .col-1, #LayoutGrid2 > .col-2
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1250px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid5
+{
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1250px;
+}
+#LayoutGrid5 > .col-1, #LayoutGrid5 > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid5 > .col-1, #LayoutGrid5 > .col-2
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid5 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   flex-basis: 50%;
+   max-width: 50%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid5 > .col-1 > .col-1-padding
+{
+   padding: 0px 0px 0px 3px;
+}
+#LayoutGrid5 > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   flex-basis: 50%;
+   max-width: 50%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid5 > .col-2 > .col-2-padding
+{
+   padding: 0px 3px 3px 0px;
+}
+@media (max-width: 500px)
+{
+#LayoutGrid5 > .col-1, #LayoutGrid5 > .col-2
 {
    -webkit-flex-basis: 100% !important;
    flex-basis: 100% !important;
@@ -631,7 +785,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
-   padding: 0;
+   padding: 10px 5px 0px 5px;
    margin: 0;
    text-align: left;
 }
@@ -683,7 +837,7 @@ body
    padding-right: 0;
    padding-top: 0;
 }
-#wb_Text4 
+#wb_Text3 
 {
    background-color: transparent;
    background-image: none;
@@ -692,9 +846,63 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_Text4 div
+#wb_Text3 div
 {
    text-align: center;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text7 div
+{
+   text-align: center;
+}
+#YouTube1
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube1
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_YouTube1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 5;
 }
 #InlineFrame2
 {
@@ -715,7 +923,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 7;
+   z-index: 10;
 }
 @media only screen and (max-width: 1683px)
 {
@@ -888,8 +1096,8 @@ body
 }
 #LayoutGrid9 > .col-1, #LayoutGrid9 > .col-2
 {
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 7px;
+   padding-left: 7px;
 }
 #LayoutGrid9 > .col-1
 {
@@ -917,8 +1125,8 @@ body
    max-width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   -webkit-align-self: center;
-   align-self: center;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
    -webkit-justify-content: center;
    justify-content: center;
    text-align: center;
