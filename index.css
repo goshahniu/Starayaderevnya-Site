@@ -173,6 +173,7 @@ body
    top: 841px;
    width: 936px;
    height: 22px;
+   visibility: hidden;
    text-align: center;
    z-index: 12;
 }
