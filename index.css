@@ -427,9 +427,9 @@ body
    left: 0px;
    top: 1063px;
    width: 712px;
-   height: 23px;
-   visibility: visible;
-   display: inline;
+   height: 22px;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -603,9 +603,9 @@ body
    left: 4px;
    top: 1587px;
    width: 474px;
-   height: 23px;
-   visibility: visible;
-   display: inline;
+   height: 22px;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -779,9 +779,9 @@ body
    left: 0px;
    top: 1168px;
    width: 356px;
-   height: 46px;
-   visibility: visible;
-   display: inline;
+   height: 22px;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
