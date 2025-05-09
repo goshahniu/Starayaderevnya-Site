@@ -19,7 +19,7 @@
 $(document).ready(function()
 {
    $("a[data-rel='PhotoGallery2']").attr('rel', 'PhotoGallery2');
-   
+   $("a[rel^='PhotoGallery2']").fancybox({});
    $('img[data-src]').lazyload();
 });
 </script>
@@ -145,17 +145,17 @@ $(document).ready(function()
 <div id="PhotoGallery2">
    <div class="thumbnails">
       <div class="thumbnail">
-         <a href="images/2025 front.png" data-rel=""><img alt="" src="images/placeholder.gif" data-src="images/tn_2025 front.png"></a>
+         <a href="images/2025 front.png" data-rel="PhotoGallery2"><img alt="" src="images/placeholder.gif" data-src="images/tn_2025 front.png"></a>
       </div>
       <div class="thumbnail">
-         <a href="images/2025 back.png" data-rel=""><img alt="" src="images/placeholder.gif" data-src="images/tn_2025 back.png"></a>
+         <a href="images/2025 back.png" data-rel="PhotoGallery2"><img alt="" src="images/placeholder.gif" data-src="images/tn_2025 back.png"></a>
       </div>
       <div class="clearfix visible-col2"></div>
       <div class="thumbnail">
-         <a href="images/mockup 2025 front.jpg" data-rel=""><img alt="" src="images/placeholder.gif" data-src="images/tn_mockup 2025 front.jpg"></a>
+         <a href="images/mockup 2025 front.jpg" data-rel="PhotoGallery2"><img alt="" src="images/placeholder.gif" data-src="images/tn_mockup 2025 front.jpg"></a>
       </div>
       <div class="thumbnail">
-         <a href="images/mockup 2025 back.jpg" data-rel=""><img alt="" src="images/placeholder.gif" data-src="images/tn_mockup 2025 back.jpg"></a>
+         <a href="images/mockup 2025 back.jpg" data-rel="PhotoGallery2"><img alt="" src="images/placeholder.gif" data-src="images/tn_mockup 2025 back.jpg"></a>
       </div>
       <div class="clearfix visible-col2"></div>
    </div>
