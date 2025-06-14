@@ -1013,6 +1013,10 @@ body
 {
    display: block;
 }
+#PhotoGallery1 .visible-col3
+{
+   display: none;
+}
 #InlineFrame2
 {
 }
@@ -1256,6 +1260,46 @@ body
 {
    padding: 0px 3px 3px 0px;
 }
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 5px 0px 5px 0px;
+}
+#LayoutGrid2 > .col-1
+{
+   padding-right: 3px;
+   padding-left: 3px;
+}
+#LayoutGrid2 > .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: center;
+   align-self: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
 #wb_LayoutGrid7
 {
    visibility: visible;
@@ -1458,6 +1502,29 @@ body
    justify-content: center;
    text-align: center;
 }
+#wb_PhotoGallery2
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #808080;
+   font-size: 16px;
+   font-family: Inconsolata;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+}
+#PhotoGallery2 .thumbnail
+{
+   width: 50%;
+}
+#PhotoGallery2 .visible-col2
+{
+   display: block;
+}
 #InlineFrame2
 {
    width: calc(100% - 0px);
@@ -1644,5 +1711,32 @@ body
    visibility: visible;
    display: block;
    margin: 0;
+}
+#wb_PhotoGallery1
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #808080;
+   font-size: 16px;
+   font-family: Inconsolata;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+}
+#PhotoGallery1 .thumbnail
+{
+   width: 33.33333333%;
+}
+#PhotoGallery1 .visible-col5
+{
+   display: none;
+}
+#PhotoGallery1 .visible-col3
+{
+   display: block;
 }
 }
