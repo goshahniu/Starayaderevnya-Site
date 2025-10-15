@@ -149,11 +149,10 @@ body
 #wb_Text1
 {
    position: absolute;
-   left: 0px;
-   top: 861px;
-   width: 954px;
-   height: 245px;
-   visibility: hidden;
+   left: 7px;
+   top: 832px;
+   width: 936px;
+   height: 220px;
    text-align: center;
    z-index: 9;
 }
@@ -244,8 +243,8 @@ body
 #Html2
 {
    position: absolute;
-   left: 8px;
-   top: 919px;
+   left: 7px;
+   top: 1156px;
    width: 937px;
    height: 100px;
    z-index: 8;
@@ -372,8 +371,8 @@ body
 }
 #Html2
 {
-   left: 8px;
-   top: 1113px;
+   left: 9px;
+   top: 1446px;
    width: 703px;
    height: 100px;
    visibility: visible;
@@ -381,12 +380,12 @@ body
 }
 #wb_Text1
 {
-   left: 0px;
-   top: 1104px;
-   width: 768px;
-   height: 245px;
-   visibility: hidden;
-   display: none;
+   left: 9px;
+   top: 1058px;
+   width: 703px;
+   height: 242px;
+   visibility: visible;
+   display: inline;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -549,7 +548,7 @@ body
 #Html2
 {
    left: 8px;
-   top: 1643px;
+   top: 1998px;
    width: 468px;
    height: 100px;
    visibility: visible;
@@ -558,11 +557,11 @@ body
 #wb_Text1
 {
    left: 0px;
-   top: 1619px;
-   width: 487px;
-   height: 267px;
-   visibility: hidden;
-   display: none;
+   top: 1587px;
+   width: 476px;
+   height: 286px;
+   visibility: visible;
+   display: inline;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
@@ -724,21 +723,21 @@ body
 }
 #Html2
 {
-   left: 5px;
-   top: 1218px;
-   width: 351px;
+   left: 4px;
+   top: 1622px;
+   width: 352px;
    height: 100px;
    visibility: visible;
    display: inline;
 }
 #wb_Text1
 {
-   left: 0px;
-   top: 1201px;
-   width: 356px;
-   height: 289px;
-   visibility: hidden;
-   display: none;
+   left: 1px;
+   top: 1175px;
+   width: 355px;
+   height: 308px;
+   visibility: visible;
+   display: inline;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;
