@@ -28,7 +28,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: transparent;
+   background-color: #000000;
    background-image: url(images/Newcastle01.jpg);
    background-repeat: no-repeat;
    background-position: center center;
@@ -1043,7 +1043,7 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-   background-color: transparent;
+   background-color: #000000;
    background-image: url(images/Newcastle01.jpg);
    background-repeat: no-repeat;
    background-position: center center;
