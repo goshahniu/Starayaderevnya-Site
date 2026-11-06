@@ -547,8 +547,8 @@ body
    border: 0px solid #FFFFFF;
    flex-basis: 33.33333333%;
    max-width: 33.33333333%;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
+   -webkit-align-self: center;
+   align-self: center;
    -webkit-justify-content: center;
    justify-content: center;
    text-align: center;
@@ -1338,8 +1338,8 @@ body
    max-width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
+   -webkit-align-self: center;
+   align-self: center;
    -webkit-justify-content: center;
    justify-content: center;
    text-align: center;
