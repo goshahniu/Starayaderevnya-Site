@@ -1,0 +1,261 @@
+@-webkit-keyframes filter-sepia
+{
+   0% { filter: sepia(1);  }
+   100% { filter: sepia(0);  }
+}
+@-moz-keyframes filter-sepia
+{
+   0% { filter: sepia(1);  }
+   100% { filter: sepia(0);  }
+}
+@-o-keyframes filter-sepia
+{
+   0% { filter: sepia(1);  }
+   100% { filter: sepia(0);  }
+}
+@-ms-keyframes filter-sepia
+{
+   0% { filter: sepia(1);  }
+   100% { filter: sepia(0);  }
+}
+@keyframes filter-sepia
+{
+   0% { filter: sepia(1);  }
+   100% { filter: sepia(0);  }
+}
+a
+{
+   color: #808080;
+   text-decoration: underline;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #000000;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+a.Link
+{
+   color: #4F4F4F;
+   text-decoration: underline;
+}
+a.Link:visited
+{
+   color: #4F4F4F;
+   text-decoration: underline;
+}
+a.Link:active
+{
+   color: #A52A2A;
+   text-decoration: underline;
+}
+a.Link:hover
+{
+   color: #A52A2A;
+   text-decoration: underline;
+}
+a.Link_back
+{
+   color: #4F4F4F;
+   text-decoration: none;
+}
+a.Link_back:visited
+{
+   color: #4F4F4F;
+   text-decoration: none;
+}
+a.Link_back:active
+{
+   color: #000000;
+   text-decoration: none;
+}
+a.Link_back:hover
+{
+   color: #000000;
+   text-decoration: none;
+}
+a.Link_copy
+{
+   color: #000000;
+   text-decoration: underline;
+}
+a.Link_copy:visited
+{
+   color: #4F4F4F;
+   text-decoration: underline;
+}
+a.Link_copy:active
+{
+   color: #A52A2A;
+   text-decoration: underline;
+}
+a.Link_copy:hover
+{
+   color: #A52A2A;
+   text-decoration: underline;
+}
+a.Blue
+{
+   color: #4169E1;
+   text-decoration: underline;
+}
+a.Blue:visited
+{
+   color: #4169E1;
+   text-decoration: underline;
+}
+a.Blue:active
+{
+   color: #4169E1;
+   text-decoration: underline;
+}
+a.Blue:hover
+{
+   color: #1E90FF;
+   font-weight: bold;
+   text-decoration: underline;
+}
+a.Link_green
+{
+   color: #006400;
+   text-decoration: underline;
+}
+a.Link_green:visited
+{
+   color: #006400;
+   text-decoration: underline;
+}
+a.Link_green:active
+{
+   color: #A52A2A;
+   text-decoration: underline;
+}
+a.Link_green:hover
+{
+   color: #A52A2A;
+   text-decoration: underline;
+}
+a.Link-red
+{
+   color: #800000;
+   text-decoration: underline;
+}
+a.Link-red:visited
+{
+   color: #800000;
+   text-decoration: underline;
+}
+a.Link-red:active
+{
+   color: #800000;
+   text-decoration: underline;
+}
+a.Link-red:hover
+{
+   color: #DC143C;
+   text-decoration: underline;
+}
+h1, .h1
+{
+   font-family: "Cutive Mono";
+   font-weight: 400;
+   font-weight: normal;
+   font-size: 43px;
+   text-decoration: none;
+   color: #4F4F4F;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 37px;
+   text-decoration: none;
+   color: #808080;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.Menu
+{
+   font-family: "Cutive Mono";
+   font-weight: 400;
+   font-weight: normal;
+   font-size: 17px;
+   text-decoration: none;
+   color: #808080;
+   background-color: transparent;
+}
+.Text
+{
+   font-family: "Cutive Mono";
+   font-weight: 400;
+   font-size: 19px;
+   text-decoration: none;
+   color: #4F4F4F;
+   background-color: transparent;
+}
