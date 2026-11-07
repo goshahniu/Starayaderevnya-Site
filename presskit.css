@@ -20,100 +20,6 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_Header
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: none;
-   text-align: center;
-   width: 100%;
-   background-color: #000000;
-   background-image: url(images/Newcastle01.jpg);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: scroll;
-   background-size: contain;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#Header
-{
-   box-sizing: border-box;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   padding: 30px 0px 30px 0px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1250px;
-}
-#Header > .col-1, #Header > .col-2, #Header > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#Header > .col-1, #Header > .col-2, #Header > .col-3
-{
-   -webkit-flex: 0 0 auto;
-   flex: 0 0 auto;
-}
-#Header > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   flex-basis: 8.33333333%;
-   max-width: 8.33333333%;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
-   -webkit-justify-content: center;
-   justify-content: center;
-   text-align: center;
-}
-#Header > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   flex-basis: 83.33333333%;
-   max-width: 83.33333333%;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
-   -webkit-justify-content: center;
-   justify-content: center;
-   text-align: center;
-}
-#Header > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   flex-basis: 8.33333333%;
-   max-width: 8.33333333%;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
-   -webkit-justify-content: flex-end;
-   justify-content: flex-end;
-   text-align: right;
-}
-@media (max-width: 1000px)
-{
-#Header > .col-1, #Header > .col-2, #Header > .col-3
-{
-   -webkit-flex-basis: 100% !important;
-   flex-basis: 100% !important;
-   max-width: 100% !important;
-}
-}
 #wb_Press_header
 {
    clear: both;
@@ -680,87 +586,6 @@ body
 {
    display: none;
 }
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text5 div
-{
-   text-align: center;
-}
-#wb_Nav
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: none;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#Nav
-{
-   box-sizing: border-box;
-   padding: 40px 15px 40px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#Nav .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#Nav > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#Nav > .row > .col-1
-{
-   float: left;
-}
-#Nav > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: left;
-}
-#Nav:before,
-#Nav:after,
-#Nav .row:before,
-#Nav .row:after
-{
-   display: table;
-   content: " ";
-}
-#Nav:after,
-#Nav .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#Nav > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #PhotoGallery1
 {
    box-sizing: border-box;
@@ -1032,78 +857,6 @@ body
    background-attachment: scroll;
    background-position: right top;
    background-repeat: no-repeat;
-}
-#wb_Header
-{
-   visibility: visible;
-   display: table;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: #000000;
-   background-image: url(images/Newcastle01.jpg);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: scroll;
-   background-size: contain;
-}
-#wb_Header
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#Header
-{
-   padding: 30px 0px 30px 0px;
-}
-#Header > .col-1, #Header > .col-2, #Header > .col-3
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#Header > .col-1
-{
-   display: block;
-   -webkit-flex-basis: 100%;
-   flex-basis: 100%;
-   max-width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
-   -webkit-justify-content: center;
-   justify-content: center;
-   text-align: center;
-}
-#Header > .col-2
-{
-   display: block;
-   -webkit-flex-basis: 100%;
-   flex-basis: 100%;
-   max-width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
-   -webkit-justify-content: center;
-   justify-content: center;
-   text-align: center;
-}
-#Header > .col-3
-{
-   display: block;
-   -webkit-flex-basis: 100%;
-   flex-basis: 100%;
-   max-width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   -webkit-align-self: flex-start;
-   align-self: flex-start;
-   -webkit-justify-content: flex-end;
-   justify-content: flex-end;
-   text-align: right;
 }
 #wb_Press_header
 {
@@ -1476,71 +1229,6 @@ body
 {
    display: block;
 }
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text5
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Nav
-{
-   visibility: hidden;
-   display: none;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Nav
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#Nav
-{
-   padding: 40px 15px 40px 15px;
-}
-#Nav .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#Nav > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#Nav > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#BuildWith1
-{
-   left: 798px;
-   top: 3167px;
-   width: 88px;
-   height: 31px;
-   visibility: visible;
-   display: inline;
-}
 #wb_PhotoGallery1
 {
    width: calc(100% - 0px);
@@ -1676,6 +1364,20 @@ body
 {
    margin: 0;
    padding: 10px 5px 0px 5px;
+}
+#wb_Image1
+{
+   width: 500px;
+   height: 199px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   width: 500px;
+   height: 199px;
 }
 }
 
