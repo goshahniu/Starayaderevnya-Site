@@ -756,6 +756,7 @@ body
 #wb_Text4 div
 {
    text-align: right;
+   white-space: nowrap;
 }
 #PhotoGallery3
 {
@@ -859,6 +860,7 @@ body
 #wb_Text6 div
 {
    text-align: right;
+   white-space: nowrap;
 }
 #wb_Text7 
 {
@@ -1510,6 +1512,20 @@ body
 {
    margin: 0;
    padding: 10px 5px 0px 5px;
+}
+#wb_Image1
+{
+   width: 500px;
+   height: 199px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   width: 500px;
+   height: 199px;
 }
 }
 
