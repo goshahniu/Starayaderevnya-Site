@@ -594,6 +594,7 @@ body
 }
 #wb_Image1
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -603,9 +604,10 @@ body
    box-sizing: border-box;
    padding: 0;
    display: inline-block;
-   width: 1250px;
-   height: 235px;
+   width: 100%;
+   height: 100%;
    vertical-align: top;
+   object-fit: scale-down;
 }
 #wb_YouTube1
 {
@@ -856,6 +858,68 @@ body
 {
    padding: 2px 2px 2px 2px;
 }
+#wb_ContactPhotos
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_ContactPhotos
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#ContactPhotos
+{
+   padding: 6px 0px 0px 0px;
+}
+#ContactPhotos > .col-1, #ContactPhotos > .col-2
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#ContactPhotos > .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: center;
+   align-self: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+#ContactPhotos > .col-1 > .col-1-padding
+{
+   padding: 2px 2px 2px 2px;
+}
+#ContactPhotos > .col-2
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+#ContactPhotos > .col-2 > .col-2-padding
+{
+   padding: 2px 2px 2px 2px;
+}
 #wb_PhotoGallery2
 {
    width: calc(100% - 0px);
@@ -947,10 +1011,34 @@ body
    margin: 0;
    padding: 10px 5px 0px 5px;
 }
+#wb_YouTube2
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 10px 5px 0px 5px;
+}
 #wb_Image1
 {
    width: 500px;
-   height: 199px;
+   height: 94px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -959,7 +1047,7 @@ body
 #Image1
 {
    width: 500px;
-   height: 199px;
+   height: 94px;
 }
 }
 
